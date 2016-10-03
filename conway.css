@@ -1,0 +1,15 @@
+div{
+	height: 30px;
+	width: 30px;
+	background-color: grey;
+	display: inline-block;
+}
+.on{
+	background-color: red;
+}
+#x{
+	background-color: black;
+}
+br {
+	height: 0px;
+}

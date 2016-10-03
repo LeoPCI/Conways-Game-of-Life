@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>conway's game of life</title>
+<link rel="stylesheet" type="text/css" href="conway.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="conway.js"></script>
+</head>
+<body>
+<body>
+	<div id="x"></div>
+	<div id="x"></div>
+	<div id="x"></div>
+	<div id="x"></div>
+	<div id="x"></div>
+	<div id="x"></div>
+	<div id="x"></div>
+	<div id="x"></div>
+	<div id="x"></div>
+	<div id="x"></div>
+	<div id="x"></div>
+	<div id="x"></div>
+	<div id="x"></div>
+	<div id="x"></div>
+	<div id="x"></div>
+	<div id="x"></div>
+	<div id="x"></div>
+	<div id="x"></div>
+	<div id="x"></div>
+	<div id="x"></div>
+	<div id="x"></div>
+	<div id="x"></div>
+	<div id="x"></div>
+	<div id="x"></div>
+<br>
+	<div id="x"></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div class="on"></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div id="x"></div>
+<br>
+	<div id="x"></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div class="on"></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div id="x"></div>
+<br>
+	<div id="x"></div>
+	<div></div>
+	<div></div>
+	<div class="on"></div>
+	<div class="on"></div>
+	<div class="on"></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div class="on"></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div class="on"></div>
+	<div id="x"></div>
+<br>
+	<div id="x"></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div class="on"></div>
+	<div></div>
+	<div class="on"></div>
+	<div></div>
+	<div></div>
+	<div class="on"></div>
+	<div></div>
+	<div></div>
+	<div class="on"></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div id="x"></div>
+<br>
+	<div id="x"></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div class="on"></div>
+	<div></div>
+	<div></div>
+	<div class="on"></div>
+	<div class="on"></div>
+	<div></div>
+	<div></div>
+	<div class="on"></div>
+	<div class="on"></div>
+	<div class="on"></div>
+	<div id="x"></div>
+<br>
+	<div id="x"></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div class="on"></div>
+	<div class="on"></div>
+	<div></div>
+	<div class="on"></div>
+	<div class="on"></div>
+	<div></div>
+	<div class="on"></div>
+	<div></div>
+	<div class="on"></div>
+	<div></div>
+	<div class="on"></div>
+	<div class="on"></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div id="x"></div>
+<br>
+	<div id="x"></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div class="on"></div>
+	<div></div>
+	<div class="on"></div>
+	<div></div>
+	<div class="on"></div>
+	<div class="on"></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div class="on"></div>
+	<div class="on"></div>
+	<div id="x"></div>
+<br>
+	<div id="x"></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div class="on"></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div class="on"></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div class="on"></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div id="x"></div>
+<br>
+	<div id="x"></div>
+	<div></div>
+	<div class="on"></div>
+	<div class="on"></div>
+	<div></div>
+	<div class="on"></div>
+	<div></div>
+	<div class="on"></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div class="on"></div>
+	<div></div>
+	<div></div>
+	<div id="x"></div>
+<br>
+	<div id="x"></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div class="on"></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div class="on"></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div class="on"></div>
+	<div class="on"></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div id="x"></div>
+<br>
+	<div id="x"></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div class="on"></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div class="on"></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div id="x"></div>
+<br>
+	<div id="x"></div>
+	<div></div>
+	<div></div>
+	<div class="on"></div>
+	<div class="on"></div>
+	<div class="on"></div>
+	<div></div>
+	<div></div>
+	<div class="on"></div>
+	<div></div>
+	<div></div>
+	<div class="on"></div>
+	<div class="on"></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div id="x"></div>
+<br>
+	<div id="x"></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div class="on"></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div class="on"></div>
+	<div class="on"></div>
+	<div></div>
+	<div></div>
+	<div class="on"></div>
+	<div class="on"></div>
+	<div class="on"></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div id="x"></div>
+<br>
+	<div id="x"></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div class="on"></div>
+	<div class="on"></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div class="on"></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div id="x"></div>
+<br>
+	<div id="x"></div>
+	<div></div>
+	<div class="on"></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div class="on"></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div id="x"></div>
+<br>
+	<div id="x"></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div class="on"></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div id="x"></div>
+<br>
+	<div id="x"></div>
+	<div class="on"></div>
+	<div></div>
+	<div></div>
+	<div class="on"></div>
+	<div class="on"></div>
+	<div></div>
+	<div class="on"></div>
+	<div class="on"></div>
+	<div></div>
+	<div></div>
+	<div class="on"></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div class="on"></div>
+	<div class="on"></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div id="x"></div>
+<br>
+	<div id="x"></div>
+	<div></div>
+	<div class="on"></div>
+	<div></div>
+	<div></div>
+	<div class="on"></div>
+	<div class="on"></div>
+	<div class="on"></div>
+	<div></div>
+	<div class="on"></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div class="on"></div>
+	<div></div>
+	<div class="on"></div>
+	<div></div>
+	<div class="on"></div>
+	<div class="on"></div>
+	<div></div>
+	<div class="on"></div>
+	<div></div>
+	<div></div>
+	<div id="x"></div>
+<br>
+	<div id="x"></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div class="on"></div>
+	<div class="on"></div>
+	<div class="on"></div>
+	<div class="on"></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div class="on"></div>
+	<div></div>
+	<div></div>
+	<div class="on"></div>
+	<div></div>
+	<div class="on"></div>
+	<div class="on"></div>
+	<div class="on"></div>
+	<div></div>
+	<div id="x"></div>
+<br>
+	<div id="x"></div>
+	<div></div>
+	<div class="on"></div>
+	<div></div>
+	<div class="on"></div>
+	<div class="on"></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div class="on"></div>
+	<div class="on"></div>
+	<div class="on"></div>
+	<div></div>
+	<div class="on"></div>
+	<div></div>
+	<div class="on"></div>
+	<div></div>
+	<div class="on"></div>
+	<div id="x"></div>
+<br>
+	<div id="x"></div>
+	<div></div>
+	<div class="on"></div>
+	<div></div>
+	<div class="on"></div>
+	<div class="on"></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div class="on"></div>
+	<div class="on"></div>
+	<div class="on"></div>
+	<div class="on"></div>
+	<div></div>
+	<div class="on"></div>
+	<div></div>
+	<div class="on"></div>
+	<div class="on"></div>
+	<div></div>
+	<div></div>
+	<div id="x"></div>
+<br>
+	<div id="x"></div>
+	<div></div>
+	<div></div>
+	<div class="on"></div>
+	<div></div>
+	<div></div>
+	<div class="on"></div>
+	<div class="on"></div>
+	<div class="on"></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div class="on"></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div id="x"></div>
+<br>
+	<div id="x"></div>
+	<div id="x"></div>
+	<div id="x"></div>
+	<div id="x"></div>
+	<div id="x"></div>
+	<div id="x"></div>
+	<div id="x"></div>
+	<div id="x"></div>
+	<div id="x"></div>
+	<div id="x"></div>
+	<div id="x"></div>
+	<div id="x"></div>
+	<div id="x"></div>
+	<div id="x"></div>
+	<div id="x"></div>
+	<div id="x"></div>
+	<div id="x"></div>
+	<div id="x"></div>
+	<div id="x"></div>
+	<div id="x"></div>
+	<div id="x"></div>
+	<div id="x"></div>
+	<div id="x"></div>
+	<div id="x"></div>
+<br>
+</body>
+</body>
+</html>
